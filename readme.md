@@ -7,7 +7,7 @@ aimee i banner --save
 ```
 
 ### Usage
-```
+```js
 var data = {
     banner: {
         icon: '../images/banner/img/logo.png',
@@ -19,7 +19,7 @@ var data = {
     }
 }
 ```
-```
+```js
 this.exports('banner', app => {
     app.init(data).render()
 })
