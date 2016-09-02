@@ -1,0 +1,7 @@
+.lincoapp-banner
+    a.banner(href= banner.link.url)
+        if(banner.icon)
+            .icon(style="background-image:url(#{banner.icon})")
+        .text= banner.text
+        button.btn= banner.link.val
+        .iclose
